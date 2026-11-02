@@ -1,650 +1,730 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--=============== FAVICON ===============-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="assets/favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#a789d5">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta
+      name="msapplication-config"
+      content="assets/favicons/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#a789d5" />
 
     <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title> Alwasi's Portfolio </title>
-</head>
+    <title>Alwasi's Portfolio</title>
+  </head>
 
-<body>
+  <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">Alwasi</a>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Alwasi</a>
 
-            <div class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item ">
-                        <a href="#home" class="nav__link">
-                            <i class='bx bx-home'></i>
-                        </a>
-                    </li>
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="bx bx-home"></i>
+              </a>
+            </li>
 
-                    <li class="nav__item ">
-                        <a href="#about" class="nav__link">
-                            <i class='bx bx-user'></i>
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class='bx bx-book'></i>
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#work" class="nav__link">
-                            <i class='bx bx-camera'></i>
-                        </a>
-                    </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">
+                <i class="bx bx-camera"></i>
+              </a>
+            </li>
 
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">
-                            <i class='bx bx-message-square-dots'></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-message-square-dots"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-            <!--=============== theme change button ===============-->
-            <i class='bx bx-moon change-theme change-theme-button' id="theme-button"></i>
-
-        </nav>
+        <!--=============== theme change button ===============-->
+        <i
+          class="bx bx-moon change-theme change-theme-button"
+          id="theme-button"
+        ></i>
+      </nav>
     </header>
 
     <!--=============== MAIN ===============-->
     <main class="main">
-        <!--=============== HOME ===============-->
-        <section class="home section" id="home">
-            <div class="home__container container grid">
-                <div class="home__data">
-                    <span class="home__greeting">Hello, I'm</span>
-                    <h1 class="home__name">Alwasi Muhrijafiatna</h1>
-                    <h3 class="home__education">Electrical Engineering Ed. Bachelor</h3>
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hello, I'm</span>
+            <h1 class="home__name">Alwasi Muhrijafiatna</h1>
+            <h3 class="home__education">Electrical Engineering Ed. Bachelor</h3>
 
-                    <div class="home__button">
-                        <a download="" href="assets/pdf/CV-Alwasi.pdf" class="button button--ghost">
-                            Download CV
-                        </a>
+            <div class="home__button">
+              <a
+                download=""
+                href="assets/pdf/CV-ATS_Alwasi.pdf"
+                class="button button--ghost"
+              >
+                Download CV
+              </a>
 
-                        <a href="#about" class="button">About</a>
-                    </div>
-                </div>
-
-                <div class="home__handle">
-                    <img src="assets/img/perfil.png" alt="" class="home__img">
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/alwasi-muhrijafiatna-757b9a27b/" target="_blank" class="home__social-link">
-                        <i class='bx bxl-linkedin'></i>
-                    </a>
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class='bx bxl-dribbble'></i>
-                    </a>
-                </div>
-
-                <a href="#about" class="home__scroll">
-                    <i class='bx bx-mouse home__scroll-icon'></i>
-                    <span class="home__scroll-name">Scroll Down</span>
-                </a>
+              <a href="#about" class="button">About</a>
             </div>
-        </section>
+          </div>
 
-        <!--=============== ABOUT ===============-->
-        <section class="about section" id="about">
-            <span class="section__subtitle">My Intro</span>
-            <h2 class="section__title">About Me</h2>
+          <div class="home__handle">
+            <img src="assets/img/perfil.png" alt="" class="home__img" />
+          </div>
 
-            <div class="about__container container grid">
-                <img src="assets/img/about.jpeg" alt="" class="about__img">
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/alwasi-muhrijafiatna-757b9a27b/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin"></i>
+            </a>
+            <a href="#" target="_blank" class="home__social-link">
+              <i class="bx bxl-dribbble"></i>
+            </a>
+          </div>
 
-                <div class="about__data">
-                    <div class="about__info">
-                        <div class="about__box">    
-                            <i class='bx bx-award about__icon'></i>
-                            <h3 class="about__title">Education</h3>
-                            <span class="about__subtitle">Indonesia University of Education</span>
-                        </div>
-                        <div class="about__box">
-                            <i class='bx bx-briefcase-alt about__icon'></i>
-                            <h3 class="about__title">Bachelors</h3>
-                            <span class="about__subtitle">Electrical Engineering Education</span>
-                        </div>
-                        <div class="about__box">    
-                            <i class='bx bx-signal-5 about__icon'></i>
-                            <h3 class="about__title">Concentration</h3>
-                            <span class="about__subtitle">Telecommunication</span>
-                        </div>
-                    </div>
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
 
-                    <p class="about__description">
-                    A fresh graduate from the Faculty of Engineering and Industrial Education at Indonesia University
-                    of Education, I graduated with cumlaude honors and have a strong interest in AI programming
-                    and Electrical Telecommunication. I bring 3 years of experience as an aviation electronics student
-                    at SMKN 12 Bandung, during which I earned a competency certification in electronics. I have
-                    completed Industrial Work Practice in aviation maintenance at PT Dewata Angkasa and in
-                    Arduino programming at PT Inovindo Digital Media. Additionally, I taught Aircraft Electronic
-                    Navigation Communication Installation at SMKN 12 Bandung. Besides that i have professional experience working at 
-                    PT. Keramika Indonesia Assosiasi as a maintenance Supervisor. I also hold a Proficiency in English
-                    for Speakers of Other Languages license from The Language Center, Indonesia University of
-                    Education. I possess excellent communication skills and a pleasant personality
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bx-award about__icon"></i>
+                <h3 class="about__title">Education</h3>
+                <span class="about__subtitle"
+                  >Indonesia University of Education</span
+                >
+              </div>
+              <div class="about__box">
+                <i class="bx bx-briefcase-alt about__icon"></i>
+                <h3 class="about__title">Bachelors</h3>
+                <span class="about__subtitle"
+                  >Electrical Engineering Education</span
+                >
+              </div>
+              <div class="about__box">
+                <i class="bx bx-laptop about__icon"></i>
+                <h3 class="about__title">Field of Interest</h3>
+                <span class="about__subtitle">Tech & Engineering</span>
+              </div>
+            </div>
+
+            <p class="about__description">
+              Detail-oriented Electrical Engineering graduate and Certified
+              System Analyst with hands-on experience in IoT integration, system
+              architecture design, and Python development. Proven track record
+              as a Maintenance & Engineering Supervisor in the manufacturing
+              sector, adept at optimizing equipment performance and reducing
+              machinery downtime. Possesses strong analytical skills and a
+              commitment to driving technical solutions in cross-functional team
+              environments.
+            </p>
+
+            <a href="#contact" class="button about__button-contact"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--=============== ORGANIZATION ===============-->
+      <section class="services section" id="skills">
+        <span class="section__subtitle">Organization</span>
+        <h2 class="section__title">My Organization Experience</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              Head of Telecommunication Engineering Development <br />
+              Sub-Division
+            </h3>
+
+            <span class="services__button">
+              See More <i class="bx bx-right-arrow services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  Head of Telecommunication Engineering Development Sub-Division
+                  <br />at<br />Electrical Engineering Student Association
+                </h3>
+
+                <p class="services__modal-description">
+                  Designed and executed targeted work programs to enhance
+                  students' practical knowledge in the telecommunications field.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">2022 - 2023</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <div class="serv">
+              <h3 class="services__title">
+                Project Manager <br />
+                Workshop Telecommunication
+              </h3>
+
+              <span class="services__button">
+                See More <i class="bx bx-right-arrow services__icon"></i>
+              </span>
+            </div>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  Project Manager Workshop Telecommunication<br />at<br />Electrical
+                  Engineering Student Association
+                </h3>
+
+                <p class="services__modal-description">
+                  Managing & Lead a team to organize and execute a technical
+                  workshop
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">2021 - 2022</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <h3 class="services__title">Staff</h3>
+
+            <span class="services__button">
+              See More <i class="bx bx-right-arrow services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  Staff<br />at<br />Electrical Engineering Student Association
+                </h3>
+
+                <p class="services__modal-description">
+                  Supported the division's initiatives by executing technical
+                  work programs. Collaborated closely with team members to
+                  prepare training materials, coordinate technical workshops,
+                  and assist students in practical engineering sessions.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">2020-2021</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <a class="button button-center" href="assets/pdf/himpunan.pdf"
+            >Organizational Certificate</a
+          >
+        </div>
+      </section>
+
+      <!--=============== PROJECTS ===============-->
+      <section class="services section">
+        <span class="section__subtitle">My Portofolio</span>
+        <h2 class="section__title">My Projects</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              Machine Learning & <br />
+              Deep Learning
+            </h3>
+
+            <span class="services__button">
+              See More <i class="bx bx-right-arrow services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  Application of Machine Learning and Deep Learning for
+                  Horticultural Plants Identification web Based
+                </h3>
+
+                <p class="services__modal-description">
+                  Created a web based application to identify a horticulture
+                  plants, weeds, pest, and make a estimated cost to cultivate a
+                  crop. Using tools and programme language such as:
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">Visual Studio Code</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">Jupyter</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">Flask</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">Django</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">HTML</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">CSS</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">JS</p>
+                  </li>
+                </ul>
+
+                <div class="modal__button-wrapper">
+                  <a
+                    href="MASUKAN_LINK_DEMO_DISINI"
+                    target="_blank"
+                    class="button"
+                  >
+                    View Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <div class="serv">
+              <h3 class="services__title">
+                Design and Develop <br />
+                IoT Based Smartpot
+              </h3>
+
+              <span class="services__button">
+                See More <i class="bx bx-right-arrow services__icon"></i>
+              </span>
+            </div>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">
+                  IoT-based smart pot system
+                </h3>
+
+                <p class="services__modal-description">
+                  Design and Development of IoT-based smart pot system to
+                  optimize the growth and care of ornamental plants.
+                </p>
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">Design the SmartPot.</p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">
+                      Develop the Program using C++.
                     </p>
+                  </li>
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">
+                      Using IoT Cloud for Controlling and Monitoring.
+                    </p>
+                  </li>
+                </ul>
 
-                    <a href="#contact" class="button about__button-contact">Contact Me</a>
+                <div class="modal__button-wrapper">
+                  <a
+                    href="MASUKAN_LINK_DEMO_DISINI"
+                    target="_blank"
+                    class="button"
+                  >
+                    View Demo
+                  </a>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!--=============== SKILLS ===============-->
-        <section class="skills section" id="skills">
-            <span class="section__subtitle">My Experience</span>
-            <h2 class="section__title">Experience</h2>
+          <div class="services__card">
+            <h3 class="services__title">
+              Employee Complaint<br />
+              Application System (SRS)
+            </h3>
 
-            <div class="skills__container container grid">
-                <div class="skills__content">
-                    <h3 class="skills__title">Indonesia University of Education</h3>
+            <span class="services__button">
+              See More <i class="bx bx-right-arrow services__icon"></i>
+            </span>
 
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
 
-                                <div>
-                                    <h3 class="skills__name">Thesis Title</h3>
-                                    <span class="skills__level">Application of Machine Learning and Deep Learning for Web-based Horticultural Plants Identification</span>
-                                </div>
-                                
-                            </div>
+                <h3 class="services__modal-title">
+                  Designing FTTH Network In Setiabudhi Terrace Housing Estate
+                </h3>
 
-                        </div>
-                    </div>
+                <p class="services__modal-description">
+                  Created the design of Fiber to the home (FTTH) network for 45
+                  house in Setiabudhi Terrace Housing Estate.
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">Network Design.</p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">
+                      Simulation configuration.
+                    </p>
+                  </li>
+
+                  <li class="services__modal-item">
+                    <i class="bx bx-check-circle"></i>
+                    <p class="services__modal-info">
+                      I count the power link budget.
+                    </p>
+                  </li>
+                </ul>
+
+                <div class="modal__button-wrapper">
+                  <a
+                    href="https://drive.google.com/drive/folders/1yBkTntBAsni8iFwn1FRiBA6xoXtZQ-aK"
+                    target="_blank"
+                    class="button"
+                  >
+                    View The File
+                  </a>
                 </div>
-                
-                <div class="skills__content">
-                    <h3 class="skills__title">SMKN 12 Bandung</h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Teacher</h3>
-                                    <span class="skills__level">Teaching in two Class with concentration of aviation electronics | Teaching Aircraft Electronic Navigation Communication Installation and Installation of
-Instrument in Aircraft subject </span>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills__content">
-                    <h3 class="skills__title">PT Keramika Indonesia Assosiasi</h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Maintenance Spv</h3>
-                                    <span class="skills__level">Gained comprehensive understanding of all stages in the ceramic manufacturing process.<br> 
-                                                                Performed maintenanced and repairs on machinery used in ceramic production.<br>
-                                                                Maintained detailed records of machine maintenance and repair history.</span>
-                                </div>
-                                
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills__content">
-                    <h3 class="skills__title">Himpunan Mahasiswa Elektro</h3>
-
-                    <div class="skills__box">
-                        <div class="skills__group">
-                            <div class="skills__data">
-                                <i class='bx bxs-badge-check'></i>
-
-                                <div>
-                                    <h3 class="skills__name">Chairman of the Sub-Division of Telecommunication Engineering Development</h3>
-                                    <span class="skills__level">Creating a plan and instructing the employees to carry out the work program</span>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-        </section>
-
-        <!--=============== PORTOFOLIO ===============-->
-        <section class="services section">
-            <span class="section__subtitle">My Portofolio</span>
-            <h2 class="section__title">My Projects</h2>
-
-            <div class="services__container container grid">
-                 <div class="services__card">
-                    <h3 class="services__title">Machine Learning & <br> Deep Learning</h3>
-
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Application of Machine Learning and Deep Learning for Horticultural Plants
-                            Identification web Based</h3>
-
-                            <p class="services__modal-description">
-                            Created a web based application to identify a horticulture plants, weeds, pest, and make a
-                            estimated cost to cultivate a crop. Using tools and programme language such as:
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Visual Studio Code
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                    Jupyter
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                    Flask
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Django
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        HTML
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        CSS
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        JS
-                                    </p>
-                                </li>   
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="services__card">
-                    <div class="serv">
-                        <h3 class="services__title">Design and Develop <br> IoT Based Smartpot</h3>
-
-                        <span class="services__button">
-                            See More <i class='bx bx-right-arrow services__icon'></i>
-                        </span>
-                    </div>
-
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">IoT-based smart pot system</h3>
-
-                            <p class="services__modal-description">
-                            Design and Development of IoT-based smart pot system to optimize the growth and care of ornamental plants.
-                            </p>
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Design the SmartPot.
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Develop the Program using C++.
-                                    </p>
-                                </li>
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Using IoT Cloud for Controlling and Monitoring.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="services__card">
-                    <div class="serv">
-                        <h3 class="services__title">Design and Develop <br> IoT Trash Bin</h3>
-
-                        <span class="services__button">
-                            See More <i class='bx bx-right-arrow services__icon'></i>
-                        </span>
-                    </div>
-
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Automatic Trash Bin Based on IoT</h3>
-
-                            <p class="services__modal-description">
-                            created a miniature IoT based automatic gate using an ESP32 microcontroller, 
-                            and ultrasonic sensor to measure the distance
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Design the trash bin.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Develop the Program using C++.
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <h3 class="services__title">Designing <br> FTTH Network</h3>
-
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Designing FTTH Network In Setiabudhi Terrace Housing Estate</h3>
-
-                            <p class="services__modal-description">
-                            Created the design of Fiber to the home (FTTH) network 
-                            for 45 house in Setiabudhi Terrace Housing Estate.
-                            </p>
-
-                            <ul class="services__modal-list">
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        Network Design.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                    Simulation configuration.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-item">
-                                    <i class='bx bx-check-circle'></i>
-                                    <p class="services__modal-info">
-                                        I count the power link budget.
-                                    </p>
-                                </li>   
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="services__card">
-                    <h3 class="services__title">Hartley Oscillator Resonance Frequency <br> Simple Calculator</h3>
-
-                    <span class="services__button">
-                        See More <i class='bx bx-right-arrow services__icon'></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <i class='bx bx-x services__modal-close'></i>
-
-                            <h3 class="services__modal-title">Simple Hartley Oscillator Resonance Frequency Calculator</h3>
-
-                            <p class="services__modal-description">
-                                created a simple calculator with 3 inputs using python language.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <!--=============== DOCUMENTATION ===============-->
-        <section class="work section" id="work">
-            <span class="section__subtitle">My Projects</span>
-            <h2 class="section__title">Documentation</h2>
+      <!--=============== DOCUMENTATION ===============-->
+      <section class="work section" id="work">
+        <span class="section__subtitle">My Projects</span>
+        <h2 class="section__title">Documentation</h2>
 
-            <div class="work__filters">
-                <span class="work__item active-work" data-filter='all'>All</span>
-                <span class=" work__item" data-filter='.web'>IoT Trashbin</span>
-                <span class=" work__item" data-filter='.movil'>FTTH</span>
-                <span class=" work__item" data-filter='.design'>Osillator</span>
-                <span class=" work__item" data-filter='.male'>ML & DL</span>
-                <span class=" work__item" data-filter='.smart'>Smartpot</span>
+        <div class="work__filters">
+          <span class="work__item active-work" data-filter="all">All</span>
+          <span class="work__item" data-filter=".web">IoT Trashbin</span>
+          <span class="work__item" data-filter=".movil">FTTH</span>
+          <span class="work__item" data-filter=".design">Osillator</span>
+          <span class="work__item" data-filter=".male">ML & DL</span>
+          <span class="work__item" data-filter=".smart">Smartpot</span>
+        </div>
+
+        <div class="work__container container grid">
+          <div class="work__card mix web">
+            <img src="assets/img/work1.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">Simulation</h3>
+          </div>
+
+          <div class="work__card mix movil">
+            <img src="assets/img/work2.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">Design location</h3>
+          </div>
+
+          <div class="work__card mix design">
+            <img src="assets/img/work3.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">Osillator Hartley Calculator</h3>
+          </div>
+
+          <div class="work__card mix web">
+            <img src="assets/img/work4.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">Prototype</h3>
+          </div>
+          <div class="work__card mix movil">
+            <img src="assets/img/work5.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">The STO route</h3>
+          </div>
+
+          <div class="work__card mix male">
+            <img src="assets/img/work6.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">Result for Recommendation Plant</h3>
+          </div>
+          <div class="work__card mix male">
+            <img src="assets/img/work7.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">The Code</h3>
+          </div>
+
+          <div class="work__card mix smart">
+            <img src="assets/img/work9.jpeg" alt="" class="work__img" />
+
+            <h3 class="work__title">Interface IoT Cloud</h3>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h3 class="section__title">Contact Me</h3>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title contact__title-info">Talk to me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data">alwasiwasi29@gmail.com</span>
+
+                <a
+                  href="mailto:alwasi@upi.edu"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write Me
+                  <i class="bx bx-right-arrow contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-facebook contact__card-icon"></i>
+                <h3 class="contact__card-title">Facebook</h3>
+                <span class="contact__card-data">Alwasi Muhrijafiatna</span>
+
+                <a
+                  href="https://web.facebook.com/alwasi.muhrijafiatna"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write Me
+                  <i class="bx bx-right-arrow contact__button-icon"></i>
+                </a>
+              </div>
+
+              <div class="contact__card">
+                <i class="bx bxl-instagram contact__card-icon"></i>
+                <h3 class="contact__card-title">Instagram</h3>
+                <span class="contact__card-data">@alwasi_mf</span>
+
+                <a
+                  href="https://www.instagram.com/alwasi_mf/"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write Me
+                  <i class="bx bx-right-arrow contact__button-icon"></i>
+                </a>
+              </div>
             </div>
+          </div>
 
-            <div class="work__container container grid">
-                <div class="work__card mix web">
-                    <img src="assets/img/work1.jpeg" alt="" class="work__img">
+          <div class="contact__content">
+            <h3 class="contact__title contact__title-form">
+              Write Me your Message
+            </h3>
 
-                    <h3 class="work__title">Simulation</h3>
-                </div>
+            <form
+              id="contact-form"
+              action="https://formspree.io/f/xoqoaall"
+              method="POST"
+              class="contact__form"
+            >
+              <div class="contact__form-div">
+                <label for="Your name" class="contact__form-tag">Name:</label>
+                <input
+                  name="name"
+                  type="text"
+                  placeholder="Enter your Name"
+                  class="contact__form-input"
+                />
+              </div>
 
-                <div class="work__card mix movil">
-                    <img src="assets/img/work2.jpeg" alt="" class="work__img">
+              <div class="contact__form-div">
+                <label for="Your email" class="contact__form-tag">Email:</label>
+                <input
+                  name="email"
+                  type="text"
+                  placeholder="Enter email"
+                  class="contact__form-input"
+                />
+              </div>
 
-                    <h3 class="work__title">Design location</h3>
-                </div>
+              <div class="contact__form-div contact__form-area">
+                <label for="Your message" class="contact__form-tag"
+                  >Message:</label
+                >
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Write your Message"
+                  class="contact__form-input"
+                ></textarea>
+              </div>
 
-                <div class="work__card mix design">
-                    <img src="assets/img/work3.jpeg" alt="" class="work__img">
-
-                    <h3 class="work__title">Osillator Hartley Calculator</h3>
-                </div>
-
-                <div class="work__card mix web">
-                    <img src="assets/img/work4.jpeg" alt="" class="work__img">
-
-                    <h3 class="work__title">Prototype</h3>
-                </div>
-                <div class="work__card mix movil">
-                    <img src="assets/img/work5.jpeg" alt="" class="work__img">
-
-                    <h3 class="work__title">The STO route</h3>
-                </div>
-                
-                <div class="work__card mix male">
-                    <img src="assets/img/work6.jpeg" alt="" class="work__img">
-
-                    <h3 class="work__title">Result for Recommendation Plant</h3>
-                </div>
-                <div class="work__card mix male">
-                    <img src="assets/img/work7.jpeg" alt="" class="work__img">
-
-                    <h3 class="work__title">The Code</h3>
-                </div>
-                
-                <div class="work__card mix smart">
-                    <img src="assets/img/work9.jpeg" alt="" class="work__img">
-
-                    <h3 class="work__title">Interface IoT Cloud</h3>
-                </div>
-
-            </div>
-        </section>
-
-        <!--=============== CONTACT ===============-->
-        <section class="contact section" id="contact">
-            <sapn class="section__subtitle">Get in touch</sapn>
-            <h3 class="section__title">Contact Me</h3>
-
-            <div class="contact__container container grid">
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-info">Talk to me</h3>
-
-                    <div class="contact__info">
-                        <div class="contact__card">
-                            <i class='bx bx-mail-send contact__card-icon'></i>
-                            <h3 class="contact__card-title">Email</h3>
-                            <span class="contact__card-data">alwasiwasi29@gmail.com</span>
-
-                            <a href="mailto:alwasi@upi.edu" target="_blank" class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__card">
-                            <i class='bx bxl-facebook contact__card-icon'></i>
-                            <h3 class="contact__card-title">Facebook</h3>
-                            <span class="contact__card-data">Alwasi Muhrijafiatna</span>
-
-                            <a href="https://web.facebook.com/alwasi.muhrijafiatna" target="_blank"
-                                class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-
-                        <div class="contact__card">
-                            <i class='bx bxl-instagram contact__card-icon'></i>
-                            <h3 class="contact__card-title">Instagram</h3>
-                            <span class="contact__card-data">@alwasi_mf</span>
-
-                            <a href="https://www.instagram.com/alwasi_mf/" target="_blank" class="contact__button">
-                                Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="contact__content">
-                    <h3 class="contact__title contact__title-form">Write Me your Message</h3>
-
-                    <form id="contact-form" action="https://formspree.io/f/xoqoaall" method="POST" class="contact__form">
-                        <div class="contact__form-div">
-                            <label for="Your name" class="contact__form-tag">Name:</label>
-                            <input name="name" type="text" placeholder="Enter your Name" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div">
-                            <label for="Your email" class="contact__form-tag">Email:</label>
-                            <input name="email" type="text" placeholder="Enter email" class="contact__form-input">
-                        </div>
-
-                        <div class="contact__form-div contact__form-area">
-                            <label for="Your message" class="contact__form-tag">Message:</label>
-                            <textarea name="message" id="" cols="30" rows="10" placeholder="Write your Message"
-                                class="contact__form-input "></textarea>
-                        </div>
-
-
-                        <button class="button">
-                            Send Message
-                        </button>
-                    </form>
-                </div>
-
-        </section>
+              <button class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+
     <!--=============== FOOTER ===============-->
     <footer class="footer">
-        <div class="footer__container container">
-            <h1 class="footer__title">Alwasi</h1>
+      <div class="footer__container container">
+        <h1 class="footer__title">Alwasi</h1>
 
-            <ul class="footer__list">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Home</a>
+          </li>
+          <li class="footer__item">
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li class="footer__item">
+            <a href="#skills" class="footer__link">Experience</a>
+          </li>
+          <li class="footer__item">
+            <a href="#work" class="footer__link">Project</a>
+          </li>
+          <li class="footer__item">
+            <a href="#contact" class="footer__link">Contact</a>
+          </li>
+        </ul>
 
-                <li class="footer__item">
-                    <a href="#" class="footer__link">Home</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#about" class="footer__link">About</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#skills" class="footer__link">Experience</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#work" class="footer__link">Project</a>
-                </li>
-                <li class="footer__item">
-                    <a href="#contact" class="footer__link">Contact</a>
-                </li>
-            </ul>
+        <ul class="footer__social">
+          <li class="footer__social-item">
+            <a
+              href="https://web.facebook.com/alwasi.muhrijafiatna"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook footer__social-icon"></i>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href="https://www.linkedin.com/in/alwasi-muhrijafiatna-757b9a27b/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-linkedin footer__social-icon"></i>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a
+              href="https://www.instagram.com/alwasi_mf/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram footer__social-icon"></i>
+            </a>
+          </li>
+        </ul>
 
-            <ul class="footer__social">
-                <li class="footer__social-item">
-                    <a href="https://web.facebook.com/alwasi.muhrijafiatna" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-facebook footer__social-icon'></i>
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="https://www.linkedin.com/in/alwasi-muhrijafiatna-757b9a27b/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-linkedin footer__social-icon'></i>
-                    </a>
-                </li>
-                <li class="footer__social-item">
-                    <a href="https://www.instagram.com/alwasi_mf/" target="_blank" class="footer__social-link">
-                        <i class='bx bxl-instagram footer__social-icon'></i>
-                    </a>
-                </li>
-            </ul>
-
-            <span class="footer__copy">
-                &#169; 2023 Alwasi Muhrijafiatna
-            </span>
-        </div>
+        <span class="footer__copy"> &#169; 2023 Alwasi Muhrijafiatna </span>
+      </div>
     </footer>
 
     <!--=============== SCROLLREVEAL ===============-->
@@ -661,7 +741,5 @@ Instrument in Aircraft subject </span>
     <!--=============== MAIN JS ===============-->
 
     <script src="assets/js/main.js"></script>
-    
-</body>
-
+  </body>
 </html>

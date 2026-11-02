@@ -432,6 +432,11 @@ body.light-theme {
   border: 1px solid var(--first-color);
 }
 
+.button-center {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
 /*=============== ABOUT ===============*/
 .about__container {
   row-gap: 2.5rem;
@@ -479,8 +484,11 @@ body.light-theme {
 }
 
 /*=============== SKILLS ===============*/
+
 .skills__container {
-  row-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
   padding-top: 1rem;
 }
 
@@ -528,6 +536,55 @@ body.light-theme {
 
 .skills__level {
   font-size: var(--small-font-size);
+}
+
+/* Penyesuaian tombol See More pada bagian Experience */
+.skills__button-custom {
+  margin-top: 1.5rem;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Styling untuk Logo Perusahaan di Experience */
+.skills__company-logo {
+  width: 120px; /* Anda bisa menyesuaikan angka ini agar logo tidak kebesaran/kekecilan */
+  height: 120px;
+  object-fit: contain; /* Memastikan logo tidak terdistorsi/gepeng */
+  margin-bottom: 1rem;
+  border-radius: 8px; /* Memberikan sedikit efek melengkung di sudut (opsional) */
+}
+
+/* Memastikan konten di dalam kotak logo berada tepat di tengah */
+.skills__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Styling Slider Dokumentasi di dalam Modal */
+.modal-swiper-container {
+  width: 100%;
+  height: 200px; /* Anda dapat menyesuaikan tinggi slider ini */
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  padding-bottom: 2rem; /* Ruang untuk titik pagination */
+}
+
+.modal-swiper-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Gambar akan terpotong rapi tanpa merusak rasio */
+  border-radius: 0.5rem;
+}
+
+/* Memperbaiki warna titik pagination agar sesuai tema */
+.modal-swiper-pagination .swiper-pagination-bullet {
+  background-color: var(--text-color-light);
+}
+
+.modal-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--first-color);
 }
 
 /*=============== SERVICES ===============*/
@@ -636,6 +693,15 @@ body.light-theme {
 .active-modal {
   visibility: visible;
   opacity: 1;
+}
+
+/* Class untuk menengahkan tombol di dalam modal */
+.modal__button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem; /* Memberikan jarak antara daftar list dan tombol */
+  width: 100%;
 }
 
 /*=============== WORK ===============*/
